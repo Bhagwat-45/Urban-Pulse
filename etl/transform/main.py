@@ -1,4 +1,3 @@
-import json
 from database.database import get_db
 
 def run_transformation():

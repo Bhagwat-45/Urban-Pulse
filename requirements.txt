@@ -1,2 +1,6 @@
 psycopg2
 pydantic
+strawberry-graphql[cli]
+fastapi
+uvicorn
+
