@@ -1,10 +1,10 @@
-import psycopg2
+import psycopg2 #type: ignore
 
 try:
     conn = psycopg2.connect(
     dbname = "Urban-Pulse-Warehouse",
     user = "postgres",
-    password = "",
+    password = "root",
     host = "localhost",
     port = "5432" 
     )
